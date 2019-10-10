@@ -1,0 +1,4 @@
+[09-Oct-2019 21:25:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home/tfrei541/public_html/mychurchbackend/app-login.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/tfrei541/public_html/mychurchbackend/app-login.php on line 27
