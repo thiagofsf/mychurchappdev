@@ -1,13 +1,19 @@
-# About
-MyChurch is an app that allos member of church to provide data update and information into databases, this reduce the overhead in the administration sector. This app also will allow members and visitors (or friends of the church) to know information, as next events, and allow members to volunteer for some church activities.
-# Expected Features
-## SignUp/Login
-This feature allow anyone to sign-up to be a app user, also providing login/logout feature. The app user will be set as not member and has no privileges, this way this user only can see the basic public information in app.
-## Membership
-This feature allow anyone to submit data to be a member, this data will be stored in a temp table in database, only users with adm privileges will be able to accept or reject the membership. After a membership acceptance, this user will be setted to be a member. Members have access to the following features: volunteer, update data, e-membership card.
-## Events
-This feature allow any user to see the next events, with all the information, a new event can only be added by an adm user. The event feature is a public feature, available to all users (member or not).
-## Volunteer
-This feature allow a member user to volunteer into church activities, a new volunteer request can only be added by an adm user. This feature is only available to member users.
-## E-Membership Card (extra feature)
-Thies feature will show a membership card inside the app, this allows members to use the membership identity when visiting other churches. This feature will be available to member users only.
+# Sobre
+Mychurch é um app que promove interação e controle de fluxo de dados para igrejas, ele promove a redução da sobrecarga dos setores administrativos ao permitir que os próprios membros atualizem e forneçam os seus dados.
+# Funcionalidades Previstas
+## Cadastro/Login
+Permite que qualquer pessoa realize um cadastro para ser um usuário do aplicativo. Esta funcionalidade prevê login/logout. O usuário será setado como membro e não possui nenhum privilégio, desta forma apenas pode ver as informações públicas no app.
+## Membro
+Permite que qualquer pessoa preencha e envie uma solicitação para ser membro da igreja, estes dados ficarão em uma tabela temporária no banco de dados, apenas usuários com privilégios de administrador poderão aceitar ou rejeitar o pedido. Após uma aceitação, esse usuário é setado como membro. Membros tem acesso as seguintes funcionalidades exclusivas: voluntariado, atualização de dados e cartão de membro digital.
+## Eventos
+Permite que qualquer usuário veja os próximos eventos, com todas as informações sobre os mesmos. Esta funcionalidade é pública, ou seja, disponível para todos os usuários (membros ou não). Apenas usuários com privilégios de adm terão acesso ao módulo de adição de eventos.
+## Voluntariado
+Permite que qualquer membro se voluntarie para uma atividade da igreja, uma nova requisição de voluntariado apenas poderá ser feita por um usuário adm. Essa funcionalidade é disponível apenas para membros.
+## Cartão de Membro Digital (extra feature)
+Essa funcionalidade mostra um cartão de membros dentro do app, isso permite que membros sejam devidamente identificados como parte integrante do corpo de membros da igreja (por exemplo quando este membro visitar outra igreja). Essa funcionalidade estará disponível apenas para membros.
+# Arquivos
+Neste projeto são encontradas duas pastas:
+## mychurch
+Aplicação desenvolvida usando React-Native.
+## mychurchserver
+Todo o código backend usado para comunicação com o banco de dados (hospedado em servidor web). A intenção é que este mesmo backend seja usado para uma posterior variação do app para web, além de integrar os bancos de dados a outras aplicações complementares.
